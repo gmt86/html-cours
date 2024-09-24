@@ -1,0 +1,37 @@
+HTML
+1- structure minimale d'une page html (!Doctype, html,head,body)
+2- title: modifier le titre de la page
+3- title: ajouter l'icône du titre
+4- body :
+		Nb: vous pouvez mettre aussi le titre du body à savoir : le header,le footer
+	1- section : pour reorganiser le code en grande partie
+	2- division : pour reorganiser le code en grande partie	
+    3- h : pour les six types de titres en html h1 à h6
+	4- p : pour les paragraphes (renvoi automatiquement en ligne lorque des paragraphes se suivent)
+	5- em: pour mettre un texte en italique
+	6- br: pour un retour à la ligne
+	7- strong : pour mettre un texte en gras
+	8- span : pour ajouter les éléments en ligne(côte à côte) car il ne renvoi pas à la ligne lorque les span se suivent(block en ligne)
+	9- img : pour ajouter des images. - 02 attributs, 1- src = source, 2- alt= alternative : representation textuelle en cas d'absence d'images
+									  - les propriètés : height : pour la hauteur ex : 200px
+														 width : pour la lageur ex : 300px
+	10- les listes : li
+		a- ul: pour liste non ordonnée (unordered list) et li:pour multiplier les listes
+		b- ol: pour liste ordonnée (ordered list)
+	11- les tableaux 
+		a- table: pour la balise
+		b- caption : pour la légende (ex: population d'europe)
+		c- thead : pour l'entête du tableau (thead --> t:tableau, head: entête)
+			a- tr : pour les lignes du tableau (tr --> table rows)			
+			b- th : pour colonnes entête ex: (pays,population)
+			c- border : pour la bordure. ex : border ="1"
+			d- width : pour la largeur du tableau. ex width ="50%" qui represente 50% de son espace
+		d - tbody : pour le corps du tableau (tbody --> table+ corps)
+			a- tr : pour les lignes du tableau (tr --> table rows)
+			b- td : pour les colonnes du corps ex: France,66M
+			
+			
+		
+		
+		
+		
