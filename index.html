@@ -12,11 +12,12 @@
 
         <head>
             <div>
-                <h1>Texte Titre H1</h1>
+                <h1><span>&#9755;</span> Texte Titre H1</h1>
                 <p>Texte basique. <em>Voici un texte en italique</em>. 
                     <strong>Et un texte en gras</strong>. 
-                <span>L'élément span ne revient pas à la ligne</span></p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur dignissimos quis laborum, architecto repudiandae earum? Minus officiis ea accusamus reiciendis.</p>
+                <span>L'élément span ne revient pas à la ligne</span> 
+              Voici des exemples: <span>&#9997;</span> <span>&#9993; <span>&#9992;</span></span></p>
+                <p><span>&#9755;</span> Voici le lien vers le site des icônes: <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blanc">Les Icones en HTML</a> </p>
             </div>
         </head>
 
@@ -71,11 +72,27 @@
                 </table>
             </div>
             <div>
-                <h5>Texte Titre H5</h5>
+                <h5>Liens Titre H5</h5>
+                <a href="https://htmlcheatsheet.com/" target="_blanc "> HTML Cheat sheet</a>
+                <br>
+                <!-- site des icones et leur codes html pour integrer dans l'application -->
+                <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blanc">Les Icones en HTML</a>
             </div>
             <div>
-                <h6>Texte Titre H6</h6>
+                <h6>Vidéo Titre H6</h6>
+                <!-- voici le site de la vidéo  -->
+                 <!-- https://pixabay.com/fr/videos/adn-h%C3%A9lix-la-biologie-m%C3%A9dical-32479/ -->
+                <video src="video.mp4" height="80" " autoplay loop muted "> </video>
             </div>
+        </section>
+        <br>
+        <section>
+            <!-- Formulaire -->
+            <h2>Formulaire</h2>
+            <form action="/action.php" method="post">
+               <label for="votreNom">Nom </label> <input type="text" id ="votreNom" placeholder="Entrer votre nom"> <br>
+               <label for="votreAge">Age </label> <input type="number" id ="votreAge" placeholder="Entrer votre âge" min="0" max="99" step="2">
+            </form>
         </section>
     </body>
 </html>

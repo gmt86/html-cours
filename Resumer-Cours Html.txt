@@ -1,4 +1,8 @@
 HTML
+
+ <!-- site des icones et leur codes html pour integrer dans l'application -->
+ <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blanc">Icones en HTML</a>
+
 1- structure minimale d'une page html (!Doctype, html,head,body)
 2- title: modifier le titre de la page
 3- title: ajouter l'icône du titre
@@ -22,13 +26,53 @@ HTML
 		a- table: pour la balise
 		b- caption : pour la légende (ex: population d'europe)
 		c- thead : pour l'entête du tableau (thead --> t:tableau, head: entête)
-			a- tr : pour les lignes du tableau (tr --> table rows)			
-			b- th : pour colonnes entête ex: (pays,population)
-			c- border : pour la bordure. ex : border ="1"
-			d- width : pour la largeur du tableau. ex width ="50%" qui represente 50% de son espace
+			1- tr : pour les lignes du tableau (tr --> table rows)			
+			2- th : pour colonnes entête ex: (pays,population)
+			3- border : pour la bordure. ex : border ="1"
+			4- width : pour la largeur du tableau. ex width ="50%" qui represente 50% de son espace
 		d - tbody : pour le corps du tableau (tbody --> table+ corps)
-			a- tr : pour les lignes du tableau (tr --> table rows)
-			b- td : pour les colonnes du corps ex: France,66M
+			1- tr : pour les lignes du tableau (tr --> table rows)
+			2- td : pour les colonnes du corps ex: France,66M
+	12- a : pour Les Liens (attributs reférence, target et le texte hyperlien) 
+			1- href : pour la reférence du liens
+			2- texte hyperlien
+			3- target : empeche de quitter la page lorsqu'on clic sur le lien (ouvre une nouvelle fenetre)
+	
+	
+	13- video : balise
+			1- src: pour la source
+			2- autoplay loop : pour relancer la video quand ca fini
+			3- muted : pour bloquer le son par défaut
+			4- height: pour la hauteur
+			5- width : pour la largeur
+			
+			<!-- voici le site vidéo comme bandeau -->
+                 <!-- https://pixabay.com/fr/videos/adn-h%C3%A9lix-la-biologie-m%C3%A9dical-32479/ -->
+	
+	14- Formulaire
+		1- propriètés
+			a- Form: pour balise
+			b- action : pour la parge à charger ex: action.php
+			c- methode: le type d'action ex : get, post
+		2- les éléments
+			a- input 
+			  type ex:
+			  
+			  type text: pour le texte, textarea : pour la zone de texte plus grande
+			   propriètés
+				- placeholder: pour le message par défaut afficher dans la zone de texte
+				- id: peut permetre de lier l'input à un label avec la proprièté 'for'
+			 type number: pour numérique
+			   propriètés
+				- min: pour définir la valeur minimale
+				- max: pour la valeur max
+				- range: pour l'intervals
+				- step: pour définir les écarts ex: de 1 à 1 pas, 2 à 2 pas, ainsi de suite
+				- value: pour définir un valeur de base par exemple
+				
+			b- buton
+			c: ect
+		
 			
 			
 		
