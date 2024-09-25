@@ -6,6 +6,22 @@ HTML
 1- structure minimale d'une page html (!Doctype, html,head,body)
 2- title: modifier le titre de la page
 3- title: ajouter l'icône du titre
+	
+	<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- le titre de la page -->
+        <title>Cours-HTML</title>
+        <!-- icône de l'onglet -->
+        <link rel="icon" href="logo-html.png" />
+    </head>
+    <body>
+       
+    </body>
+</html>
+	
 4- body :
 		Nb: vous pouvez mettre aussi le titre du body à savoir : le header,le footer
 	1- section : pour reorganiser le code en grande partie
@@ -19,9 +35,31 @@ HTML
 	9- img : pour ajouter des images. - 02 attributs, 1- src = source, 2- alt= alternative : representation textuelle en cas d'absence d'images
 									  - les propriètés : height : pour la hauteur ex : 200px
 														 width : pour la lageur ex : 300px
+														 
+		<div>
+                <h2>Photos Titre H2</h2>
+                <img src="photo-font-ecran.png" height="200" alt="Font d'écran">
+            </div>
+		
 	10- les listes : li
 		a- ul: pour liste non ordonnée (unordered list) et li:pour multiplier les listes
 		b- ol: pour liste ordonnée (ordered list)
+		
+		ex:
+		
+		<ul>
+                    <li>UL= Unodered List</li>
+                    <li>UL= Unodered List</li>
+                    <li>UL= Unodered List</li>
+                </ul>
+
+                <ol>
+                    <li>OL= Odered List</li>
+                    <li>OL= Odered List</li>
+                    <li>OL= Odered List</li>
+                </ol>
+		
+		
 	11- les tableaux 
 		a- table: pour la balise
 		b- caption : pour la légende (ex: population d'europe)
@@ -38,6 +76,10 @@ HTML
 			2- texte hyperlien
 			3- target : empeche de quitter la page lorsqu'on clic sur le lien (ouvre une nouvelle fenetre)
 	
+	 <a href="https://htmlcheatsheet.com/" target="_blanc "> HTML Cheat sheet</a>
+	 
+	  <!-- site des icones et leur codes html pour integrer dans l'application -->
+                <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blanc">Les Icones en HTML</a>
 	
 	13- video : balise
 			1- src: pour la source
@@ -46,8 +88,10 @@ HTML
 			4- height: pour la hauteur
 			5- width : pour la largeur
 			
-			<!-- voici le site vidéo comme bandeau -->
+			 <!-- voici le site de la vidéo  -->
                  <!-- https://pixabay.com/fr/videos/adn-h%C3%A9lix-la-biologie-m%C3%A9dical-32479/ -->
+				 
+                <video src="video.mp4" height="80" " autoplay loop muted "> </video>
 	
 	14- Formulaire
 		1- propriètés
@@ -58,7 +102,7 @@ HTML
 			a- input 
 			  type ex:
 			  
-			  type text: pour le texte, textarea : pour la zone de texte plus grande
+			  type text: pour le texte, textarea : pour la zone de texte plus grande 
 			   propriètés
 				- placeholder: pour le message par défaut afficher dans la zone de texte
 				- id: peut permetre de lier l'input à un label avec la proprièté 'for'
@@ -69,9 +113,35 @@ HTML
 				- range: pour l'intervals
 				- step: pour définir les écarts ex: de 1 à 1 pas, 2 à 2 pas, ainsi de suite
 				- value: pour définir un valeur de base par exemple
+			type Select: pour, comboBox(menu déroulant), radio bouton ou checkBox
+				select : pour la balise
+				option : pour les différents éléments
+				selected: pour choisir l'élément selectionné par défaut
 				
-			b- buton
-			c: ect
+				radio : represente le type
+				name: le nom du groupe radio bouton
+				id: le code de chaque élément du groupe radio bouton
+				label : pour le nom visible et connecté a l'élément du radio bouton
+				
+				textarea : balise
+				 - cols : pour la largeur
+				 - rows: pour la hauteur
+				 - name: pour le nom
+				 - id: pour le code
+				 - placeholder: message par defaut
+				 - etc...
+							 
+			b- buton 
+				type: submit
+				name: nom
+				id :le code
+				value : le nom qui s'affiche (par defaut s'il ny pas value le nom qui s'afiche c'est 'envoyer')
+				
+			c: mail et envoi de fichier
+			 <a href="mailto:tsopfackguy@gmail.com">Ecriver moi!</a>
+           
+            <a href="notice.txt" download="non-du-fichier">Télécharger la notice</a>
+			
 		
 			
 			

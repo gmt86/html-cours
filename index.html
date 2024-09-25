@@ -92,7 +92,52 @@
             <form action="/action.php" method="post">
                <label for="votreNom">Nom </label> <input type="text" id ="votreNom" placeholder="Entrer votre nom"> <br>
                <label for="votreAge">Age </label> <input type="number" id ="votreAge" placeholder="Entrer votre âge" min="0" max="99" step="2">
-            </form>
+            <br>
+               <!-- Input select -->
+             <label for="gender">Genre</label>
+             <select  id="gender">
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+                <option selected value="aucun">Aucun</option>
+             </select><br>
+
+             <!-- input radio -->
+              <div>
+                <input type="radio" name="type" id="human">
+                <label for="human">Humain</label>
+
+                <input type="radio" name="type" id="dog" checked>
+                <label for="dog">Chien</label>
+
+                <input type="radio" name="type" id="cat">
+                <label for="cat">Chat</label> 
+              </div><br>
+            
+              <!-- textarea -->
+               
+                <textarea cols="30" rows="10"  name="" id="" 
+                placeholder="Entrer votre demande ici"></textarea><br>
+
+                <!-- input checkbox -->
+                 <!-- ici on peut envelopper la checkbox dans le label si on veut -->
+                <label><input type="checkbox" name="" id="">Accepter Les CGV</label>   
+                <label><input type="checkbox" name="" id="">Accepter Les CGV</label>   
+                <label><input type="checkbox" name="" id="">Accepter Les CGV</label>   
+                <label><input type="checkbox" name="" id="">Accepter Les CGV</label>   
+                <br>
+
+                <!-- input submit --> 
+                 <input type="submit" name="" id="" value="Valider">
+
+            </form>                        
         </section>
+        <br>
+         <!-- mail et envoi de fichier -->
+
+         <footer>
+            <a href="mailto:tsopfackguy@gmail.com">Ecriver moi!</a>
+            <br>
+            <a href="notice.txt" download="non-du-fichier">Télécharger la notice</a>
+         </footer>
     </body>
 </html>
